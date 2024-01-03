@@ -6,4 +6,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),dopinder)
 
+$(call add-radio-file-sha1-checked,radio/bootloader.img,e102d94a777c6cd74bd8906fbb343a4e640ebf51)
+
 endif
