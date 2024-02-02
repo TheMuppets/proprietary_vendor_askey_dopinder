@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The Android Open Source Project
+# Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,12 +13,26 @@
 # limitations under the License.
 
 #
-# D-pad input from software remote
+# Key Layout file for B06 Remote.
 #
 
-device.internal = 0
+key 116   POWER
+key 217   ASSIST
 
-keyboard.builtIn = 0
-keyboard.orientationAware = 0
+key 103   DPAD_UP
+key 108   DPAD_DOWN
+key 105   DPAD_LEFT
+key 106   DPAD_RIGHT
+key 353   DPAD_CENTER
 
-audio.mic = 1
+key 158   BACK
+key 172   HOME
+key 130   ALL_APPS
+
+key 113   VOLUME_MUTE
+key 114   VOLUME_DOWN
+key 115   VOLUME_UP
+
+key usage 0x000c0078   BUTTON_2
+key usage 0x000c0077   BUTTON_3
+key usage 0x000c0079   BUTTON_4

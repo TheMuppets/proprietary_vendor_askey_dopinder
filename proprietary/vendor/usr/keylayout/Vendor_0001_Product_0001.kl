@@ -110,6 +110,7 @@ key 128   MEDIA_STOP
 key 130   MEDIA_NEXT
 key 131   MEDIA_PREVIOUS
 #STEM_1  map  INFO for netflix buttom
+#key 133   F2 WAKE
 key 133   STEM_1
 key 140   F10
 #key 132   TV_REPEAT
@@ -118,21 +119,16 @@ key 135   CAPTIONS
 key 136   MEDIA_AUDIO_TRACK
 #key 137   TV_SWITCH
 
+#added by askey for WH-5349 IR ->start
 key 582   VOICE_ASSIST
-key 253   F9  #ALLAPPS
-key 250   F10  #YOUTUBE
-key 251   F11  #NETFLIX
-key 252   F12  #GOOGLEPLAY
-key 249   PAIRING  #BTPAIR
-
-#Add by Lance,2020-12-01
-#Compatible with Jimmy remote control
-key 183    TV_INPUT
-key 156    BOOKMARK
-key 184    SETTINGS
-key 185    GUIDE
-key 186   BUTTON_6  #DISNEY
-key 187   BUTTON_7  #HBOMAX
-key 402   CHANNEL_UP
-key 403   CHANNEL_DOWN
-#End by Lance
+#ALLAPPS
+key 253   F9
+#YOUTUBE
+key 250   F10
+#NETFLIX
+key 251   F11
+#GOOGLEPLAY
+key 252   F12
+#BTPAIR
+key 249   PAIRING
+#added by askey for WH-5349 IR ->end 
