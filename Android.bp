@@ -8,6 +8,316 @@ soong_namespace {
 	],
 }
 
+cc_prebuilt_library_shared {
+	name: "libSubtitleClient_vendor",
+	stem: "libSubtitleClient",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libSubtitleClient.so"],
+			shared_libs: ["libbase", "libbinder", "libhidlbase", "libutils", "libutilscallstack", "libcutils", "liblog", "libstagefright_foundation", "libamavutils", "libsubtitlebinder_vendor", "libfmq", "libhidlmemory", "android.hidl.memory@1.0", "vendor.amlogic.hardware.subtitleserver@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libnetflixplugin",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libnetflixplugin.so"],
+			shared_libs: ["liblog", "libutils", "libcutils", "libteec", "android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "libbase", "libhidlbase", "libbinder", "libhidlmemory", "android.hardware.drm@1.4", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "liboemcrypto",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/liboemcrypto.so"],
+			shared_libs: ["liblog", "libcrypto", "libcutils", "libutils", "libz", "libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libplayready",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libplayready.so"],
+			shared_libs: ["libutils", "liblog", "libcutils", "libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libplayreadymediadrmplugin",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libplayreadymediadrmplugin.so"],
+			shared_libs: ["libplayready", "libcutils", "liblog", "libstagefright_foundation", "libutils", "libssl", "android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "libbase", "libhidlbase", "libbinder", "libhidlmemory", "android.hardware.drm@1.4", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsecmem",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsecmem.so"],
+			shared_libs: ["liblog", "libamavutils", "libcrypto", "libcutils", "libutils", "libz", "libmediahal_resman", "libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsubtitlebinder_vendor",
+	stem: "libsubtitlebinder",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsubtitlebinder.so"],
+			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0_vendor", "libbase", "libhidlbase", "liblog", "libcutils", "libutilscallstack", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libtee_load_video_fw",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libtee_load_video_fw.so"],
+			shared_libs: ["libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libteec",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libteec.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.amlogic.hardware.subtitleserver@1.0_vendor",
+	stem: "vendor.amlogic.hardware.subtitleserver@1.0",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libSubtitleClient",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libSubtitleClient.so"],
+			shared_libs: ["libbase", "libbinder", "libhidlbase", "libutils", "libutilscallstack", "libcutils", "liblog", "libstagefright_foundation", "libamavutils_system_ext", "libsubtitlebinder", "libfmq", "libhidlmemory", "android.hidl.memory@1.0", "vendor.amlogic.hardware.subtitleserver@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libamavutils_system_ext",
+	stem: "libamavutils",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libamavutils.so"],
+			shared_libs: ["libutils", "libcutils", "libc", "libbinder", "liblog", "libui", "libc++", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsubtitlebinder",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libsubtitlebinder.so"],
+			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0", "libbase", "libhidlbase", "liblog", "libcutils", "libutilscallstack", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsubtitlemanager_jni",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libsubtitlemanager_jni.so"],
+			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0", "android.hidl.memory@1.0", "libbase", "libvendorfont", "libhidlbase", "libhidlmemory", "liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvendorfont",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libvendorfont.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.amlogic.hardware.subtitleserver@1.0",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libHwAudio_dcvdec",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libHwAudio_dcvdec.so"],
+			shared_libs: ["libm", "liblog", "libdl", "libc", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libHwAudio_dtshd",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libHwAudio_dtshd.so"],
+			shared_libs: ["liblog", "libc", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
 android_app_import {
 	name: "AskeyAutoPair",
 	owner: "askey",
@@ -102,6 +412,128 @@ prebuilt_etc_xml {
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.amlogic.hardware.subtitleserver@1.0.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.4-service.netflix",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.netflix"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "android.hardware.drm@1.4", "libbase", "libhidlbase", "liblog", "libutils", "libbinder", "libnetflixplugin", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.4-service.playready",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.playready"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "libbase", "libhidlbase", "liblog", "libutils", "libbinder", "libplayreadymediadrmplugin", "android.hardware.drm@1.4", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.security.keymint-service.amlogic",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.security.keymint-service.amlogic"],
+			shared_libs: ["android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "lib_android_keymaster_keymint_utils", "libbase", "libbinder_ndk", "libhardware", "libkeymaster_messages", "libkeymint", "liblog", "libtrusty", "libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tee-supplicant",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/tee-supplicant"],
+			shared_libs: ["libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tee_hdcp",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/tee_hdcp"],
+			shared_libs: ["libteec", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tee_key_inject",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/tee_key_inject"],
+			shared_libs: ["libteec", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tee_preload_fw",
+	owner: "askey",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/tee_preload_fw"],
+			shared_libs: ["libteec", "libtee_load_video_fw", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
 	soc_specific: true,
 }
 

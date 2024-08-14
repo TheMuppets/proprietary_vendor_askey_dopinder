@@ -18,24 +18,10 @@ PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/odm/etc/tvconfig/tv_setting_config.cfg:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/tv_setting_config.cfg \
     vendor/askey/dopinder/proprietary/odm/etc/tvconfig/tvconfig.conf:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/tvconfig.conf \
     vendor/askey/dopinder/proprietary/odm/etc/tvconfig/tvscan.conf:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/tvscan.conf \
-    vendor/askey/dopinder/proprietary/odm/lib/libHwAudio_dcvdec.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dcvdec.so \
-    vendor/askey/dopinder/proprietary/odm/lib/libHwAudio_dtshd.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dtshd.so \
     vendor/askey/dopinder/proprietary/system/etc/permissions/droidlogic-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/droidlogic-hiddenapi-package-whitelist.xml \
     vendor/askey/dopinder/proprietary/system/system/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/sysconfig/netflix.xml \
     vendor/askey/dopinder/proprietary/system_ext/etc/permissions/com.droidlogic.tv.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.droidlogic.tv.settings.xml \
     vendor/askey/dopinder/proprietary/system_ext/etc/permissions/droidlogic_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/droidlogic_permissions.xml \
-    vendor/askey/dopinder/proprietary/system_ext/lib/libSubtitleClient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libSubtitleClient.so \
-    vendor/askey/dopinder/proprietary/system_ext/lib/libsubtitlebinder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsubtitlebinder.so \
-    vendor/askey/dopinder/proprietary/system_ext/lib/libsubtitlemanager_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsubtitlemanager_jni.so \
-    vendor/askey/dopinder/proprietary/system_ext/lib/libvendorfont.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvendorfont.so \
-    vendor/askey/dopinder/proprietary/system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.amlogic.hardware.subtitleserver@1.0.so \
-    vendor/askey/dopinder/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.netflix:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.netflix \
-    vendor/askey/dopinder/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.playready:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.playready \
-    vendor/askey/dopinder/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.amlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.amlogic \
-    vendor/askey/dopinder/proprietary/vendor/bin/tee-supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tee-supplicant \
-    vendor/askey/dopinder/proprietary/vendor/bin/tee_hdcp:$(TARGET_COPY_OUT_VENDOR)/bin/tee_hdcp \
-    vendor/askey/dopinder/proprietary/vendor/bin/tee_key_inject:$(TARGET_COPY_OUT_VENDOR)/bin/tee_key_inject \
-    vendor/askey/dopinder/proprietary/vendor/bin/tee_preload_fw:$(TARGET_COPY_OUT_VENDOR)/bin/tee_preload_fw \
     vendor/askey/dopinder/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.netflix.rc \
     vendor/askey/dopinder/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.playready.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.playready.rc \
     vendor/askey/dopinder/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
@@ -51,15 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
     vendor/askey/dopinder/proprietary/vendor/etc/permissions/droidlogic.tv.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.tv.software.core.xml \
     vendor/askey/dopinder/proprietary/vendor/etc/permissions/nrdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/nrdp.xml \
-    vendor/askey/dopinder/proprietary/vendor/lib/libSubtitleClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubtitleClient.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libnetflixplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetflixplugin.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libplayreadymediadrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayreadymediadrmplugin.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libsecmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecmem.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libsubtitlebinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubtitlebinder.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libtee_load_video_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtee_load_video_fw.so \
-    vendor/askey/dopinder/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta \
@@ -68,10 +45,27 @@ PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta \
-    vendor/askey/dopinder/proprietary/vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta \
-    vendor/askey/dopinder/proprietary/vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
+    vendor/askey/dopinder/proprietary/vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
 
 PRODUCT_PACKAGES += \
+    libSubtitleClient_vendor \
+    libnetflixplugin \
+    liboemcrypto \
+    libplayready \
+    libplayreadymediadrmplugin \
+    libsecmem \
+    libsubtitlebinder_vendor \
+    libtee_load_video_fw \
+    libteec \
+    vendor.amlogic.hardware.subtitleserver@1.0_vendor \
+    libSubtitleClient \
+    libamavutils_system_ext \
+    libsubtitlebinder \
+    libsubtitlemanager_jni \
+    libvendorfont \
+    vendor.amlogic.hardware.subtitleserver@1.0 \
+    libHwAudio_dcvdec \
+    libHwAudio_dtshd \
     AskeyAutoPair \
     AskeySetupCustomizer \
     DroidTvSettings \
@@ -81,4 +75,11 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.amlogic.xml \
     manifest_android.hardware.drm@1.4-service.netflix.xml \
     manifest_android.hardware.drm@1.4-service.playready.xml \
-    vendor.amlogic.hardware.subtitleserver@1.0.xml
+    vendor.amlogic.hardware.subtitleserver@1.0.xml \
+    android.hardware.drm@1.4-service.netflix \
+    android.hardware.drm@1.4-service.playready \
+    android.hardware.security.keymint-service.amlogic \
+    tee-supplicant \
+    tee_hdcp \
+    tee_key_inject \
+    tee_preload_fw
