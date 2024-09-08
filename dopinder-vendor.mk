@@ -57,7 +57,7 @@ PRODUCT_PACKAGES += \
     droidlogic-res \
     droidlogic.software.core \
     droidlogic.tv.software.core \
-    vendor.amlogic.hardware.subtitleserver@1.0
+    vendor.amlogic.hardware.subtitleserver@1.0.xml
 PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/vendor/bin/hdcp_tx22:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp_tx22 \
     vendor/askey/dopinder/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic \
@@ -80,4 +80,4 @@ PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.tvserver@1.0.so
 
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-service.droidlogic
+    android.hardware.graphics.composer@2.4-service.droidlogic.xml
