@@ -259,7 +259,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libvendorfont.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcrypto_shim", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
