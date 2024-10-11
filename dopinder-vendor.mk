@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
     libHwAudio_dtshd \
     AskeyAutoPair \
     AskeySetupCustomizer \
-    DroidTvSettings \
     droidlogic-res \
     droidlogic.software.core \
     droidlogic.tv.software.core \

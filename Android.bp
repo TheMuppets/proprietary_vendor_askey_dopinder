@@ -342,18 +342,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DroidTvSettings",
-	owner: "askey",
-	apk: "proprietary/system_ext/priv-app/DroidTvSettings/DroidTvSettings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "droidlogic-res",
 	owner: "askey",
 	apk: "proprietary/system_ext/priv-app/droidlogic-res/droidlogic-res.apk",
