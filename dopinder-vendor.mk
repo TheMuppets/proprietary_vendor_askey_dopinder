@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/odm/etc/tvconfig/tvconfig.conf:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/tvconfig.conf \
     vendor/askey/dopinder/proprietary/odm/etc/tvconfig/tvscan.conf:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/tvscan.conf \
     vendor/askey/dopinder/proprietary/system/etc/permissions/droidlogic-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/droidlogic-hiddenapi-package-whitelist.xml \
-    vendor/askey/dopinder/proprietary/system/system/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/sysconfig/netflix.xml \
+    vendor/askey/dopinder/proprietary/system/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/netflix.xml \
     vendor/askey/dopinder/proprietary/system_ext/etc/permissions/com.droidlogic.tv.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.droidlogic.tv.settings.xml \
     vendor/askey/dopinder/proprietary/system_ext/etc/permissions/droidlogic_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/droidlogic_permissions.xml \
     vendor/askey/dopinder/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.netflix.rc \
