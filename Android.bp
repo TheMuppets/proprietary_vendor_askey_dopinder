@@ -664,6 +664,15 @@ android_app_import {
 }
 
 dex_import {
+    name: "droidlogic.software.core",
+    owner: "askey",
+    jars: [
+        "proprietary/vendor/framework/droidlogic.software.core.jar",
+    ],
+    soc_specific: true,
+}
+
+dex_import {
     name: "droidlogic.tv.software.core",
     owner: "askey",
     jars: [
