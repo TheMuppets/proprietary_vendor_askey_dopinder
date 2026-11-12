@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
     vendor.amlogic.hardware.subtitleserver@1.0_vendor \
     libSubtitleClient \
     libamavutils_system_ext \
+    libjniuevent \
     libsubtitlebinder \
     libsubtitlemanager_jni \
     libvendorfont \
