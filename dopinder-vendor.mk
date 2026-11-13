@@ -27,12 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/askey/dopinder/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
     vendor/askey/dopinder/proprietary/vendor/etc/permissions/droidlogic.tv.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.tv.software.core.xml \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta \
+    vendor/askey/dopinder/proprietary/vendor/lib/teetz/1987f328-1755-9321-5441-43494343544c.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/1987f328-1755-9321-5441-43494343544c.ta \
+    vendor/askey/dopinder/proprietary/vendor/lib/teetz/2088528d-102a-4716-b940-23fd9be04adf.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/2088528d-102a-4716-b940-23fd9be04adf.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta \
-    vendor/askey/dopinder/proprietary/vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta \
     vendor/askey/dopinder/proprietary/vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
 
